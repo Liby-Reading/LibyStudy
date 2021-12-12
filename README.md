@@ -1,5 +1,5 @@
 # LibyStudy
-A social study game that allows for collaborative reading and studying. (not complete)
+A social studying game that allows for collaborative reading and studying. (not complete)
 
 
 # GameDev Log: Day 1
