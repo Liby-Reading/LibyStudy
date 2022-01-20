@@ -1,0 +1,242 @@
+@import 'https://fonts.googleapis.com/css?family=Arimo:700|Prompt:700|Raleway:600|Roboto+Slab:300,700|Sanchez';
+ *, *:before, *:after {
+	 box-sizing: border-box;
+}
+ body {
+	 background-color: #dbe2ec;
+	 
+}
+ main {
+	 width: 1280px;
+	 margin: 0 auto;
+}
+ .artboard {
+
+	 float: left;
+	 width: 500px;
+	 height: 400px;
+	 background-color: white;
+	 box-shadow: 0 10px 30px -5px rgba(0, 0, 0, .2);
+	 border-radius: 10%;
+
+
+
+}
+
+.float-container {
+    padding: 1%;
+}
+
+.float-child {
+    float: left;
+    padding: 20px;
+
+}  
+
+.red {
+}
+ .content {
+	 width: 100%;
+	 height: 90%;
+	 background-color: #f8f9fa;
+}
+ .picture {
+	 background: url("https://images.unsplash.com/photo-1453396450673-3fe83d2db2c4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=5eb7a0fcc589f787ef254317fcbf88c0");
+	 background-size: cover;
+	 transform: rotateY(180deg);
+}
+ .title {
+	 position: absolute;
+	 top: 30%;
+	 left: 10%;
+	 color: #fff;
+}
+ .title a {
+	 display: block;
+	 width: 85px;
+	 height: 30px;
+	 background-color: #fff;
+	 color: #22272e;
+	 margin-top: 30px;
+	 text-align: center;
+	 line-height: 30px;
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 border-radus: 1px;
+}
+ .nav-bottom {
+	 height: 10%;
+	 position: relative;
+}
+ .nav-bottom-wrapper {
+	 width: 100%;
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+}
+ .nav-bottom-wrapper li {
+	 display: inline-block;
+}
+ .nav-bottom-wrapper > ul > li {
+	 width: 20%;
+	 float: left;
+	 margin: 0 6.66666667%;
+	 height: 25px;
+	 line-height: 25px;
+}
+ .nav-bottom-wrapper > ul > li:nth-child(2) {
+	 text-align: center;
+}
+ .nav-bottom-wrapper > ul > li:last-child div {
+	 float: right;
+}
+ .nav-top {
+	 width: 100%;
+	 height: 10%;
+	 position: relative;
+}
+ .nav-top li:first-child {
+	 width: 200px;
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+	 text-align: center;
+	 text-transform: uppercase;
+	 font-size: 14px;
+	 font-family: 'Arimo', sans-serif;
+	 font-wight: 700;
+	 color: #2c3137;
+	 letter-spacing: 1px;
+}
+ .nav-top li:last-child {
+	 position: absolute;
+	 top: 50%;
+	 right: 6.66666667%;
+	 transform: translateY(-50%);
+}
+ .close-comments {
+	 width: 21px;
+	 height: 21px;
+}
+ .typography h3 {
+	 font-family: 'Raleway', sans-serif;
+	 font-size: 11px;
+	 font-weight: 600;
+	 text-transform: uppercase;
+	 letter-spacing: 0.9px;
+}
+ .typography h1 {
+	 font-family: 'Prompt', sans-serif;
+	 font-size: 42px;
+	 font-weight: 700;
+	 text-transform: uppercase;
+	 line-height: 55px;
+	 width: 250px;
+	 margin-top: 10px;
+}
+ .typography a {
+	 font-family: 'Raleway', sans-serif;
+	 font-size: 12px;
+	 font-weight: 600;
+	 letter-spacing: 0.5px;
+}
+ .typography li {
+	 text-transform: uppercase;
+	 font-size: 11px;
+	 font-family: 'Arimo', sans-serif;
+	 font-wight: 700;
+}
+ .circle_container {
+	 width: 5px;
+	 height: 25px;
+}
+ .comments_box {
+	 width: 100%;
+	 height: 25px;
+	 position: relative;
+}
+ .comments_box svg {
+	 display: block;
+	 width: 20px;
+	 height: 20px;
+	 position: absolute;
+	 top: 50%;
+	 right: 0;
+	 transform: translateY(-50%);
+}
+ .article {
+	 font-family: 'Sanchez', serif;
+	 font-size: 15px;
+	 line-height: 30px;
+	 padding: 40px 40px;
+	 color: #626a73;
+}
+ .article p:last-child {
+	 margin-top: 35px;
+}
+ .article span {
+	 font-size: 96px;
+	 float: left;
+	 padding: 30px 10px 10px 0;
+	 color: #000;
+}
+ .comments {
+	 padding: 0 10%;
+	 overflow: hidden;
+	 margin-top: 25px;
+}
+ .comments section:first-child {
+	 width: 50px;
+	 height: 50px;
+	 float: left;
+}
+ .comments section:first-child img {
+	 display: block;
+	 width: 100%;
+	 height: 100%;
+	 border-radius: 50%;
+}
+ .comments section:last-child {
+	 width: 230px;
+	 float: right;
+	 font-family: 'Roboto Slab', serif;
+	 letter-spacing: 0.5px;
+}
+ .comments section:last-child h2 {
+	 margin-bottom: 10px;
+	 font-weight: 700;
+	 font-size: 12px;
+}
+ .comments section:last-child h2 span {
+	 font-weight: 300;
+	 color: #abacae;
+}
+ .comments section:last-child h2 .dot {
+	 height: 14px;
+	 position: relative;
+}
+ .comments section:last-child h2 .dot svg {
+	 width: 8px;
+	 height: 8px;
+	 margin: 0 10px 0 10px;
+}
+ .comments section:last-child p {
+	 line-height: 25px;
+	 font-size: 12px;
+	 font-weight: 300;
+}
+ #thanks {
+	 font-family: "Verdana", sans-serif;
+	 font-size: 14px;
+	 box-sizing: border-box;
+	 margin: 15px auto;
+	 padding-right: 40.8333333px;
+	 width: 1280px;
+	 text-align: right;
+}
+ #thanks a:visited, #thanks a:link {
+	 color: #000;
+}
+ 

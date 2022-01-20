@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>LIBY - social reading</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./comments.css">
+<link rel="stylesheet" href="./tabbar.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script></head>
+<body>
+
+<div class="tab">
+  <nav class="amazing-tabs">
+    <div class="filters-container">
+      <div class="filters-wrapper">
+        <ul class="filter-tabs">
+          <li>
+            <button class="filter-button filter-active" data-translate-value="0">
+              Online
+            </button>
+          </li>
+          <li>
+            <button class="filter-button" data-translate-value="100%">
+              Reading
+            </button>
+          </li>
+          <li>
+            <button class="filter-button" data-translate-value="200%">
+              Following
+            </button>
+          </li>
+        </ul>
+        <div class="filter-slider" aria-hidden="true">
+          <div class="filter-slider-rect">&nbsp;</div>
+        </div>
+      </div>
+    </div>
+    <div class="main-tabs-container">
+      <div class="main-tabs-wrapper">
+        <ul class="main-tabs">
+          <li>
+            <button class="round-button" data-translate-value="0" data-color="red">
+              <span class="avatar">
+                <img src="https://img.icons8.com/dotty/80/000000/library.png"/>              </span>
+            </button>
+          </li>
+          <li>
+            <button class="round-button gallery active" style="--round-button-active-color: #2962ff" data-translate-value="100%" data-color="blue">
+              <span class="avatar">
+                <img src="https://img.icons8.com/dotty/80/000000/groups.png"/>              </span>
+            </button>
+          </li>
+          <li>
+            <button class="round-button" style="--round-button-active-color: #00c853" data-translate-value="200%" data-color="green">
+              <span class="avatar">
+                <img src="https://img.icons8.com/carbon-copy/100/000000/apple-books.png" />
+          </span>
+            </button>
+          </li>
+          <li>
+            <button class="round-button" style="--round-button-active-color: #aa00ff" data-translate-value="300%" data-color="purple">
+              <span class="avatar">
+                <img src="https://img.icons8.com/dotty/80/000000/settings.png"/>
+                            </span>
+            </button>
+          </li>
+  
+        </ul>
+        <div class="main-slider" aria-hidden="true">
+          <div class="main-slider-circle">&nbsp;</div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+<!-- partial:index.partial.html -->
+<div class="float-container">
+  
+  <div class="float-child">
+    <div class="green">
+<section class="artboard">
+  <div class="nav-top">
+    <ul>
+      <li>Comments (45) Page - 3</li>
+      <li><div class="close-comments"><svg><use xlink:href="#close_comments"></use></svg></div></li>
+    </ul>
+  </div>
+  <div class="comments">
+    <article>
+      <section>
+      <img src="https://picsum.photos/200" alt="User-name"/>
+      </section>
+      <section>
+        <h2>jonathandunn <span class="dot"><svg><use xlink:href="#dot"></use></svg></span> <span class="time">3 hours ago</span></h2>
+      <p>Good point! There are travel bloggers. Then there are freelancers: coders mainly.</p>
+      </section>
+    </article>
+  </div>
+  <div class="comments">
+    <article>
+      <section>
+      <img src="https://picsum.photos/240" alt="User-name"/>
+      </section>
+      <section>
+        <h2>roberto98 <span class="dot"><svg><use xlink:href="#dot"></use></svg></span> <span class="time">4 hours ago</span></h2>
+      <p>Not one family on amongst that. Being nomadic is easier when you only have 1 person to worry about</p>
+      </section>
+    </article>
+  </div>
+
+</section>
+  </div>
+
+</div>
+
+<div class="float-child">
+  <div class="pages" id="pages"spellcheck="false">
+  <div class="card">
+
+  <div class="red">
+<div class="cover">
+  <div class="book">
+  <label for="page-3"  class="book__page book__page--1">
+    <img src="cover.jpg" alt="">
+  </label>
+  
+  <label for="page-2" class="book__page book__page--4">
+    <div class="page__content">
+      <h1 class="page__content-title">I</h1>
+      <div class="page__content-blockquote">
+        <p class="page__content-blockquote-text">HARI SELDON — . . . born in the 11,988th year of the Galactic Era; died 12,069. The dates are more commonly given in terms of the current Foundational Era as -79 to the year 1 F.E. Born to middle-class parents on Helicon, Arcturus sector (where his father, in a legend of doubtful authenticity, was a tobacco grower in the hydroponic plants of the planet), he early showed amazing ability in mathematics. Anecdotes concerning his ability are innumerable, and some are contradictory. At the age of two, he is said to have. . . </p>
+        <p class="page__content-blockquote-text">. . . Undoubtedly his greatest contributions were in the field of psychohistory. Seldon found the field little more than a set of vague axioms; he left it a profound statistical science. . . . </p>
+        <p class="page__content-blockquote-text">. . . The best existing authority we have for the details of his life is the biography written by Gaal Dornick who, as a young man, met Seldon two years before the great mathematician's death. The story of the meeting . . .</p>
+        <span class="page__content-blockquote-reference">Encyclopedia Galactica*</span>
+      </div>
+      <div class="page__content-text">
+        <p>His name was Gaal Dornick and he was just a country boy who had never seen Trantor before. That is, not in real life. He had seen it many times on the hyper-video, and occasionally in tremendous three-dimensional newscasts covering an Imperial Coronation or the opening of a Galactic Council. Even though he had lived all his life on the world of Synnax, which circled a star at the edges of the Blue Drift, he was not cut off from civilization, you see. At that time, no place in the Galaxy was. </p>
+
+        <p>There were nearly twenty-five million inhabited planets in the Galaxy then, and not one but owed allegiance to the Empire whose seat was on Trantor. It was the last half-century in which that could be said. </p>
+        <p>To Gaal, this trip was the undoubted climax of his young, scholarly life. He had been in space before so that the trip, as a voyage and nothing more, meant little to him. To be sure, he had traveled previously only as far as Synnax's only satellite in order to get the data on the mechanics of meteor driftage which he needed for his dissertation, but space-travel was all one whether one travelled half a million miles, or as many light years. </p>
+      </div>
+      <div class="page__number">3</div>
+    </div>
+  </label>
+  
+
+    
+  <!-- Resets the page -->
+  <input type="radio" name="page" id="page-3"/>
+    
+  <!-- Goes to the second page -->
+  <input type="radio" name="page" id="page-2"/>
+
+
+
+  <label class="book__page book__page--2">
+    <div class="book__page-front">
+      <div class="page__content">
+        <h1 class="page__content-book-title">How to Reason and&nbsp;Argue</h1>
+        <h2 class="page__content-author">WALTER SINNOTT-ARMSTRONG</h2>
+        
+   
+        
+        <p class="page__content-credits">
+          Oxford University Press is a department of the University of Oxford. It furthers the University’s objective of excellence in research, scholarship, and education by publishing worldwide. Oxford is a registered trade mark of Oxford University Press in the UK and certain other countries.        </p>
+        
+        <div class="page__content-copyright">
+          <p>Duke University</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="book__page-back">
+      <div class="page__content">
+        <h1 class="page__content-title">Contents</h1>
+        <table class="page__content-table">
+          <tr>
+            <td align="left">Part I</td><td align="left">Preface: Why I Wrote This Book</td><td align="right">3</td>
+          </tr>
+          <tr>
+            <td align="left">Part II</td><td align="left">How Did We Get Here?</td><td align="right">43</td>
+          </tr>
+          <tr>
+            <td align="left">Part III</td><td align="left">PART I: WHY TO ARGUE</td><td align="right">87</td>
+          </tr>
+          <tr>
+            <td align="left">Part IV</td><td align="left">What Is Polarization</td><td align="right">147</td>
+          </tr>
+          <tr>
+            <td align="left">Part V</td><td align="left">The Merchant Princes</td><td align="right">173</td>
+          </tr>
+        </table>
+        
+        <div class="page__number">2</div>
+      </div>
+    </div>
+  </label>
+
+  
+
+  
+</div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+
+
+<ul class="tools">
+  <li><button class="highlightingText" >Highlight Text</button></li>
+  <li><button class="deleteHighlight">Delete Highlight</button></li>
+  <li><button class="postNote">Annotate</button></li>
+  <li><button>Define</button></li>
+
+</ul>
+<ul class="color">
+  <span class="dot" onclick="Highlight('yellow')"></span>
+  <span class="dot2" onclick="Highlight('rgb(0, 255, 42)')"></span>
+  <span class="dot3" onclick="Highlight('rgb(3, 242, 250)')"></span>
+  <span class="dot4" onclick="Highlight('rgb(255, 0, 212)')"></span>
+</ul>
+<ul class="note" id="note" >
+  <li>
+    <textarea autofocus></textarea>
+  </li>
+  <li>
+    <button>Add Note</button>
+  </li>
+</ul>
+  
+
+<!-- partial -->
+
+  <script  src="./tabbar.js"></script>
+  <script type='text/javascript' src="highlight.js"></script>
+
+
+</body>
+</html>
